@@ -14,15 +14,15 @@ namespace Tserkovnikova
         {
             get
             {
-                if (a < b) return a;
-                else return b;
+                while (a>b)
+                {
+                    return b;
+                }
+                return a;
             }
             set
             {
-                while (c != 0)
-                {
-                    c = value;
-                }
+                c = value;
             }
         }
         public class B : A
